@@ -1,0 +1,99 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(#e66465, #9198e5);
+    background-repeat: no-repeat;
+}
+ 
+
+input {outline: none;}
+
+#container{
+    background-color: #ffffff;
+    /* border: 0px solid black; */
+    width: 400px;
+    margin: 10% auto;
+}
+
+#top-bar{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    color: #ffffff;
+    background-color: #2474BB;
+    overflow:hidden;
+
+}
+
+#todo-title{
+    float: left;
+}
+
+#top-title{
+    width: -webkit-fill-available;
+    padding: 10px;
+    font-size: 1.25em;
+    font-weight: 600;
+    float: left;
+}
+
+#add-icon{
+    display: inline;
+    float: right;
+    margin-left: 10%;
+}
+
+#new-todo-input{
+    border: none;
+    font-size: 1em;
+    width: -webkit-fill-available;
+    padding: 20px;
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.fa-trash-alt{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    font-style: normal;
+    display: none;
+}
+
+.del-icon{
+    display: none;
+    float: left;
+    margin: 0px;
+    background-color: red;
+    padding: 20px;
+}
+
+.item-txt{
+    float: left;
+    padding: 20px;
+}
+
+.cut{
+    text-decoration: line-through;
+}
+
+li{
+    display: inline;
+}
+
+.todo-item{
+    display: inline-table;
+    width: -webkit-fill-available;
+    list-style-type: none;
+    text-align: left;
+    height: 20px;
+}
+
+.todo-item:nth-of-type(odd){
+    background-color: #F8F8F8;
+}
